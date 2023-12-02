@@ -4,7 +4,7 @@ data = util.getData(day=2,year=2023).split('\n')
 
 cumIdx = 0
 for x,game in enumerate(data,1):
-    trials = [_.split(', ') for _ in game.split(':')[1][1:].split('; ')]
+    trials = [_.split(', ') for _ in game.split(': ')[1].split('; ')]
     possible = True
     for trial in trials:
         draws = [_.split() for _ in trial]

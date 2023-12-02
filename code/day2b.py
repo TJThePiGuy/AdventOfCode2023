@@ -4,10 +4,10 @@ data = util.getData(day=2,year=2023).split('\n')
 
 cumPower = 0
 for x,game in enumerate(data,1):
-    trials = [_.split(', ') for _ in game.split(':')[1][1:].split('; ')]
-    red = -1;
-    green = -1;
-    blue = -1
+    trials = [_.split(', ') for _ in game.split(': ')[1].split('; ')]
+    red = 0
+    green = 0
+    blue = 0
     for trial in trials:
         draws = [_.split() for _ in trial]
         for draw in draws:
