@@ -1,6 +1,10 @@
-def getData(day:int, year:int):
+def getData(day:int, year:int, save:bool=True):
     import aocd;
-    return aocd.get_data(day=day, year=year)
+    data = aocd.get_data(day=day, year=year)
+    if(save):
+        with open('helper/input', 'w+') as f:
+            f.write(data)
+    return data
 
 def submit(answer,day:int,year:int,part:str):
     import aocd;
