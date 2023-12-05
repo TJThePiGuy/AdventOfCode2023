@@ -8,3 +8,4 @@ This is just a place for me to display my Advent of Code code
 | [Day 2](notes/2.md) | 8:35 | 3:25 | 12:00 |
 | [Day 3](notes/3.md) | 1:32:32 | 8:22 | 1:40:54 |
 | [Day 4](notes/4.md) | 4:36 | 13:19 | 17:55 |
+| [Day 5](notes/5.md) | 17:06 | 47:20 | 54:26 | 
