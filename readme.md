@@ -12,3 +12,4 @@ This is just a place for me to display my Advent of Code code
 | [Day 6](notes/6.md) | 7:40 | 7:13 | 14:53 |
 | [Day 7](notes/7.md) | 1:10:27 | 22:53 | 1:33:20 |
 | [Day 8](notes/8.md) | 5:51 | 1:08:45 | 1:14:36 |
+| [Day 9](notes/9.md) | 9:58 | 3:08 | 13:06 |
