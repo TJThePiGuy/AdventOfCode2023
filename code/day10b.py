@@ -52,10 +52,10 @@ for y in range(height):
         if (x,y) in pointsVisited:
             if currChar in '|':
                 enclosed = not enclosed
-            elif data[y][x] in 'FL':
+            elif currChar in 'FL':
                 inWall = True
                 wallChar = currChar
-            elif data[y][x] in '7J':
+            elif currChar in '7J':
                 inWall = False
                 if (wallChar == 'F' and currChar == 'J') or (wallChar == 'L' and currChar == '7'):
                     enclosed = not enclosed
