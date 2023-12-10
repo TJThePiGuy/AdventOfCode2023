@@ -4,17 +4,24 @@ data = util.getData(10,2023,False).split('\n')
 width = len(data[0])
 height = len(data)
 
+rules = [
+    (1,0, '-J7', '-FL'),
+    (-1,0,'-FL', '-J7'),
+    (0,1, '|JL', '|F7'),
+    (0,-1,'|F7', '|JL')]
+
 startPos = None
 for y in range(height):
     for x in range(width):
         if data[y][x] == 'S':
             startPos = (x,y)
-
-rules = [
-    (1,0, '-J7', '-FLS'),
-    (-1,0,'-FL', '-J7S'),
-    (0,1, '|JL', '|F7S'),
-    (0,-1,'|F7', '|JLS')]
+            possibleChars = {i for i in '-|J7FL'}
+            for (dx,dy,endChars, startChars) in rules:
+                if not(x+dx in range(width) and y+dy in range(height)):
+                    continue
+                if data[y+dy][x+dx] in endChars:
+                    possibleChars = possibleChars.intersection({i for i in startChars})
+            data[y] = data[y].replace('S',possibleChars.pop())
 
 pointsVisited = []
 pointsToVisit = [startPos]
