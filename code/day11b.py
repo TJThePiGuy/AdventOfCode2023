@@ -28,6 +28,6 @@ for idx in range(len(locations)):
     for jdx in range(idx+1, len(locations)):
         x2, y2 = locations[jdx]
         addedX = [x for x in xExt if x in range(min(x1,x2),max(x1,x2))]
-        addedY = [y for y in yExt if y in range(min(y1,y2),max(y1,y2))]
-        totalDist += abs(x1-x2) + len(addedX)*999_999 + abs(y1-y2)+ len(addedY)*999_999
+        addedY = [y for y in yExt if y in range(y1,y2)]
+        totalDist += abs(x1-x2) + len(addedX)*999_999 + (y2-y1)+ len(addedY)*999_999
 util.submit(totalDist,11,2023,'b')
