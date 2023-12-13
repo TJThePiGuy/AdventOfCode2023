@@ -15,3 +15,5 @@ This is just a place for me to display my Advent of Code code
 | [Day 9](notes/9.md) | 9:58 | 3:08 | 13:06 |
 | [Day 10](notes/10.md) | 20:50 | 42:04 | 1:02:54 |
 | [Day 11](notes/11.md) | 17:35 | 7:14 | 24:49 |
+| [Day 12](notes/12.md) | 22:06 | $\infty$ | $\infty$ |
+| [Day 13](notes/13.md) | 29:02 | 7:34 | 36:36 | 
