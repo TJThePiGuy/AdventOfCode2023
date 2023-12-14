@@ -1,6 +1,8 @@
 # TJ O's Advent of Code 2023
 
-This is just a place for me to display my Advent of Code code
+This is just a place for me to display my Advent of Code code. If this ends up being public, then hello!
+
+I am competing in the NJIT ACM private leaderboard with all of these times. Note that any that have a time as "$\infty$" have not yet been completed.
 
 | Date | Part A Time | Part B Time | Total Time |
 |---|---|---|---|
@@ -17,3 +19,4 @@ This is just a place for me to display my Advent of Code code
 | [Day 11](notes/11.md) | 17:35 | 7:14 | 24:49 |
 | [Day 12](notes/12.md) | 22:06 | $\infty$ | $\infty$ |
 | [Day 13](notes/13.md) | 29:02 | 7:34 | 36:36 | 
+| [Day 14](notes/14.md) | 6:50 | 43:20 | 50:10 |
