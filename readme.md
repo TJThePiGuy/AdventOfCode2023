@@ -17,7 +17,7 @@ I am competing in the NJIT ACM private leaderboard with all of these times. Note
 | [Day 9](notes/9.md) | 9:58 | 3:08 | 13:06 |
 | [Day 10](notes/10.md) | 20:50 | 42:04 | 1:02:54 |
 | [Day 11](notes/11.md) | 17:35 | 7:14 | 24:49 |
-| [Day 12](notes/12.md) | 22:06 | $\infty$ | $\infty$ |
+| [Day 12](notes/12.md) | 22:06 | 89:47:53 | 90:09:59 |
 | [Day 13](notes/13.md) | 29:02 | 7:34 | 36:36 | 
 | [Day 14](notes/14.md) | 6:50 | 43:20 | 50:10 |
 | [Day 15](notes/15.md) | 2:54 | 17:23 | 20:17 |
