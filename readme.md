@@ -2,7 +2,7 @@
 
 This is just a place for me to display my Advent of Code code. If this ends up being public, then hello!
 
-I am competing in the NJIT ACM private leaderboard with all of these times. Note that any that have a time as "$\infty$" have not yet been completed.
+I am competing in the NJIT ACM private leaderboard with all of these times. Note that any that have a time as "infinity" have not yet been completed.
 
 | Date | Part A Time | Part B Time | Total Time |
 |---|---|---|---|
@@ -21,3 +21,4 @@ I am competing in the NJIT ACM private leaderboard with all of these times. Note
 | [Day 13](notes/13.md) | 29:02 | 7:34 | 36:36 | 
 | [Day 14](notes/14.md) | 6:50 | 43:20 | 50:10 |
 | [Day 15](notes/15.md) | 2:54 | 17:23 | 20:17 |
+| [Day 16](notes/16.md) | 30:31 | 10:24 | 40:35 |
