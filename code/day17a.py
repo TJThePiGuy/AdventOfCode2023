@@ -77,14 +77,13 @@ while not positionsToConsider.empty():
         )
 
 
-for y in range(height):
-    for x in range(width):
-        if (x, y) in finalStack:
-            print("*", end="")
-        else:
-            print(".", end="")
-    print()
+# for y in range(height):
+#     for x in range(width):
+#         if (x, y) in finalStack:
+#             print("*", end="")
+#         else:
+#             print(".", end="")
+#     print()
 
-# print(finalStack)
 print(finalHeat)
 submit(finalHeat, 17, 2023, "a")

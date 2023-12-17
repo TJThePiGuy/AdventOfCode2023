@@ -2,7 +2,6 @@ from helper.aocdUtil import getData, submit
 from queue import PriorityQueue
 from functools import cache
 
-
 rawData = getData(17, 2023, False)
 
 heatMaps = [[int(_) for _ in line] for line in rawData.split("\n")]
@@ -37,7 +36,7 @@ while not positionsToConsider.empty():
         continue
     visited.add(((d, x, y, forward)))
 
-    if x == width - 1 and y == height - 1 and forward >=4:
+    if x == width - 1 and y == height - 1 and forward >= 4:
         finalHeat = heat
         finalStack = stack
         finalStack.append((x, y))
