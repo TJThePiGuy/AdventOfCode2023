@@ -24,3 +24,4 @@ I am competing in the NJIT ACM private leaderboard with all of these times. Note
 | [Day 16](notes/16.md) | 30:31 | 10:24 | 40:35 |
 | [Day 17](notes/17.md) | 36:48 | 11:41 | 48:29 |
 | [Day 18](notes/18.md) | 32:54 | 52:54 | 1:25:48 |
+| [Day 19](notes/19.md) | 24:20 | 27:34 | 51:54 | 
